@@ -3,7 +3,7 @@ const onlyText = alphabet.innerText;
 //console.log(onlyText);
 
 const randomWord = () => {
-const randomIndex = Math.floor(Math.random()*onlyText.length);
+const randomIndex = Math.floor(Math.random() * onlyText.length-1);
 const randomLetter = onlyText[randomIndex]; 
 return randomLetter;
 }
