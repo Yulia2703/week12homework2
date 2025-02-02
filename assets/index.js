@@ -7,4 +7,6 @@ const randomIndex = Math.floor(Math.random() * onlyText.length-1);
 const randomLetter = onlyText[randomIndex]; 
 return randomLetter;
 }
-console.log(randomWord());
+const string = randomWord() + randomWord() + randomWord() + randomWord()
+console.log(string)
+
